@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+    
+    
+    <title>Encriptador</title>
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="imagenes/Logo.png" alt="Logo de Alura" />
+    </header>
+    <main>
+      <section>
+        <textarea class="text-area"  cols="30" rows="5" placeholder="Ingrese el texto aquí"></textarea>
+        <div>
+          <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+        </div>
+    
+        <div class="botones">
+          <button class="btn-encriptar" onclick="btnEncriptar()"> Encriptar</button>
+          <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+        </div>
+      </section>
+      <section>
+        <textarea class="mensaje" readonly="readonly" cols="20" rows="10"></textarea>
+        <div class="botones">
+          <input type="submit" value="Copiar" Class="copiar" id="copiar">
+        </div>
+      </section>
+      
+    </main>
+
+    <footer>
+      <p class="footer" >&copy Copyright  Alura ONE latam-Edson Velásquez</p>
+      
+        
+        <a href="https://www.linkedin.com/in/edson-velasquez-catastralgeodesta/" target="_blank">
+          <img class="imgf" src="imagenes/linkedin.png" alt="Logo LinkedIn">
+        </a>
+        <a href="https://github.com/ed1122" target="_blank">
+          <img class="imgf" src="imagenes/github.png" alt="Logo git">
+        </a>
+        <a href="https://twitter.com/edson_velasquez" target="_blank">
+          <img class="imgf" src="imagenes/gorjeo.png" alt="Logo twitter">
+        </a>
+
+      
+    </footer>
+  
+  </body>
+  <script src="script.js"></script>  
+</html>
