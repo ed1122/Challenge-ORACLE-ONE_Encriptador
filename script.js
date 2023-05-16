@@ -14,6 +14,13 @@ function btnEncriptar(){
         mensaje.value = textoEncriptado;
         textArea.value = "";
         mensaje.style.backgroundImage = "none";
+        Swal({
+            position: 'top-end',
+            icon: 'success',
+            title: 'Your work has been saved',
+            showConfirmButton: false,
+            timer: 1500
+          })
     }else{
         alert("Debes ingresar un texto");
         
@@ -45,6 +52,7 @@ function Copiar(){
         copia.setSelectionRange(0, 99999);//para moviles
         navigator.clipboard.writeText(copia.value);
         textArea.focus();
+        
     }
     
     

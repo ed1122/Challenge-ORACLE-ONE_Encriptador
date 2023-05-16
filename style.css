@@ -7,6 +7,7 @@
     line-height: 110%;
 }
 
+
 .logo{
     padding-top: 10px;
     margin-left: 10px;
@@ -19,7 +20,13 @@ main{
     margin-left: 80px;
 }
 
+alert{
+    color: aqua;
+}
+
 .text-area{
+    width: 606px;
+    height: 107px;
     border: none;
     color:#0a3871;
     margin-top: 90px;
@@ -149,3 +156,61 @@ footer{
     align-items: center;
 }
 
+@media screen and (max-width:1000px){
+    main{
+        margin-left:5px;
+    }
+
+    .text-area{
+        width: 60%;
+        resize: auto;
+        margin-top: 5px;
+    }
+    .informacion{
+        font-size: 15px;
+    }
+    .mensaje{
+        width: 60%;
+        height: 100px;
+        resize: auto;
+        margin:0;
+    }
+    .contenedor{
+        margin-left:15px;
+        display: inline-block;
+    }
+    .iz{
+        width: 100%;
+    }
+
+    .botones{
+        display: flex;
+        margin:0;
+        width:100%;
+    }
+    .btn-encriptar{
+        margin-left: 5px;
+        width: 120px;
+        font-size: small;
+    }
+    .btn-desencriptar{
+        width: 110px;
+        margin-left: 2px;
+        font-size: small;
+    }
+    .copiar{
+        margin:0;
+        width: 30%;
+        font-size:19px;
+    }
+
+    .footer{
+        width: 100%;
+        font-size: 1.5ch;
+
+    }
+    .imgf{
+        width: 19px;
+    }
+    
+}
